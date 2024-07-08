@@ -3,22 +3,13 @@ body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-ul {
-    display: flex;
-    flex-direction: row;
-    gap: 24px;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-li {
-    font-size: 18px;
-}
-
 a {
     text-decoration: none;
     color: #E5E7EB;
+}
+
+ul {
+    list-style-type: none;
 }
 
 .hero {
@@ -30,46 +21,115 @@ a {
 
 .header {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 24px 0px;
 }
 
 .logo {
-    color: #F9FAF8;
+    display: flex;
     font-size: 24px;
+    color: #F9FAF8;
     font-weight: bold;
 }
 
-.lower-hero {
+.links {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    margin: 0;
+    padding: 0;
+    gap: 24px;
+}
+
+.bot-hero {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
     padding: 100px 0px;
-    height: 300px;
-    width: auto;
-    flex-wrap: wrap;
 }
 
-.left-sect {
-    display:flex;
+.left-hero {
+    display: flex;
     flex-direction: column;
-    flex-shrink: 0;
-    flex-wrap: wrap;
+    max-width: 50%;
+    gap: 10px;
 }
 
-.right-sect {
-    background-color: #ADACB2;
-    height: 300px;
-    width: 500px;
+.right-hero {
+    display: flex;
     flex-shrink: 0;
-}       
+}
 
-.main-text {
+.main-hero {
     font-size: 48px;
-    font-weight: 1000;
+    font-weight: 800;
     color: #F9FAF8;
-    flex-wrap: wrap;
+}
+
+.subtext-hero {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.signup-button {
+    background-color: #3882F6;
+    font-size: 18px;
+    color: #E5E7EB;
+    border: none;
+    text-align: center;
+    padding: 8px 20px;
+    border-radius: 8px; 
+    font-weight: bold;
+}
+
+.right-hero {
+    display: flex;
+    background-color: #747474;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 128px;
+}
+
+.info-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+    padding: 48px 0px;
+}
+
+.lower-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.box-text {
+    display: flex;
+    flex-direction: column;
+    max-width: 10%;
+}
+
+.box {
+    align-self: center;
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+    width: 117px;
+    height: 117px;
+    margin: 10px 0px;
+}
+
+.text {
+    text-align: center;
+    color: #1F2937;
 }
