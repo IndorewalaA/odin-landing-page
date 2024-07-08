@@ -93,6 +93,11 @@ ul {
     padding: 128px;
 }
 
+.main-body {
+    display: flex;
+    flex-direction: column;
+}
+
 .info-section {
     display: flex;
     flex-direction: column;
@@ -118,6 +123,7 @@ ul {
     display: flex;
     flex-direction: column;
     max-width: 10%;
+    padding-bottom: 100px;
 }
 
 .box {
@@ -132,4 +138,27 @@ ul {
 .text {
     text-align: center;
     color: #1F2937;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 100px 0px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    align-self: center;
+    max-width: 50%;
+}
+
+.quote-author {
+    align-self: end;
+    margin-right: 500px;
+    font-size: 24px;
+    font-weight: bold;
 }
